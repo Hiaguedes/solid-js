@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init
+
+PATH: 
+  C:\Program Files\Eclipse Foundation\jdk-16.0.2.7-hotspot\bin;C:\Python38\;C:\Python38\Scripts;%PATH;C:\Program Files\Java\jdk-14.0.2\bin;C:\php;C:\Octave\Octave-5.2.0\mingw64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Hiago\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\watchman-2021.07.05.00\watchman\python\bin;C:\Program Files\Binaries-LuaDist-batteries-0.9.8-Windows-x86\bin;C:\Users\Hiago\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\Hiago\flutter\bin;C:\Program Files\OpenJDK\openjdk-11.0.12_7\bin;C:\Ruby27-x64\bin;C:\Users\Hiago\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\Hiago\vendor\conemu-maximus5;C:\Users\Hiago\vendor\conemu-maximus5\ConEmu;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\NVIDIA Corporation\NVIDIA NGX;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;%QUARTUS_ROOTDIR%\bin;C:\Users\Hiago\AppData\Local\Microsoft\WindowsApps;C:\Users\Hiago\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hiago\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Users\Hiago\Desktop\h1.labs\h1.labs;C:\Users\Hiago\Desktop\h1.labs;C:\Users\Hiago\Desktop\h1.labs\bin;C:\WINDOW;C:\Users\Hiago\AppData\Roaming\npm;C:\Users\Hiago\AppData\Local\Microsoft\WindowsApps;C:\Users\Hiago\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Hiago\AppData\Local\Yarn\bin;C:\Exercism;C:\Program Files\Git\usr\bin;
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.15.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:137009:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:875:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:345:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1144:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (internal/streams/readable.js:309:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
