@@ -12,7 +12,7 @@ interface Circle extends Shape {
     getStringArea: () => string;
 }
 
-const RectangleShape = (width: number, height: number) => {
+const RectangleShape = (width: number, height: number): Rectangle => {
     const Rectangle: Rectangle = {
         width,
         height,
@@ -24,7 +24,7 @@ const RectangleShape = (width: number, height: number) => {
     return Rectangle;
 }
 
-const CircleShape = (ratio: number) => {
+const CircleShape = (ratio: number): Circle => {
     const Area = () => (Math.pow(ratio, 2));
     const Circle: Circle = {
         ratio,

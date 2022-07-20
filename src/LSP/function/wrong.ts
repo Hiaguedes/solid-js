@@ -2,7 +2,7 @@ interface Shape {
     getArea: () => any;
 }
 
-const RectangleShape = (width: number, height: number) => {
+const RectangleShape = (width: number, height: number): Shape => {
     const Rectangle: Shape = {
         getArea : () => {
             return width * height;
@@ -12,7 +12,7 @@ const RectangleShape = (width: number, height: number) => {
     return Rectangle;
 }
 
-const CircleShape = (ratio: number) => {
+const CircleShape = (ratio: number): Shape => {
     const Circle: Shape = {
         getArea : () => {
             return Math.pow(ratio, 2).toString();
